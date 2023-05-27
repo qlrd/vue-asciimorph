@@ -1,0 +1,32 @@
+{
+  "name": "vue-asciimorph",
+  "version": "0.0.1",
+  "description": "vue3 wrapper component for tholman/ascii-morph",
+  "repository": "https://www.github.com/qlrd/vue-ascii-morph",
+  "author": "qlrd <106913782+qlrd@users.noreply.github.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/asciimorph.umd.js",
+  "module": "dist/asciimorph.es.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && npm run build:types",
+    "build:types": "vue-tsc --project tsconfig.build-types.json --declaration --emitDeclarationOnly --outDir dist/types ",
+    "typecheck": "vue-tsc --project tsconfig.build-types.json --noEmit"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.21.5",
+    "@types/node": "^20.2.3",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/tsconfig": "^0.4.0",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.8",
+    "vue": "^3.3.4",
+    "vue-tsc": "^1.6.5",
+    "vue-uuid": "^3.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+# Node modules installed by package managers
+node_modules/
+yarn.lock
+
+# dist generatedfiles
+dist
