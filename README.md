@@ -42,7 +42,7 @@ yarn add vue-asciimorph
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import AsciiMorph from '../src/AsciiMorph.vue'
+import { AsciiMorph } from 'vue-asciimorph'
 
 export default defineComponent({
   components: {
