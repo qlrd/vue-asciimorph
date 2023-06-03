@@ -1,8 +1,8 @@
 {
   "name": "vue-asciimorph",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "vue3 wrapper component for tholman/ascii-morph",
-  "repository": "https://www.github.com/qlrd/vue-ascii-morph",
+  "repository": "https://www.github.com/qlrd/vue-asciimorph",
   "author": "qlrd <106913782+qlrd@users.noreply.github.com>",
   "license": "MIT",
   "files": [
